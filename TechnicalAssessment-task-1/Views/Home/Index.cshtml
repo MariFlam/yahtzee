@@ -1,0 +1,231 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Yahtzee</h1>
+
+    <h2>About</h2>
+    <p>
+        Yahtzee is a dice game made by Milton Bradley (a company that has since been acquired and assimilated by Hasbro), which was first marketed as Yatzie by the National Association Service of Toledo,
+        Ohio, in the early 1940s. It was marketed under the name of Yahtzee by game entrepreneur Edwin S. Lowe in 1956. The game is a development of earlier dice games such as Poker Dice, Yacht and Generala.
+        It is also similar to Yatzy, which is popular in Scandinavia.
+    </p>
+
+    <p>
+        The objective of the game is to score points by rolling five dice to make certain combinations. The dice can be rolled up to three times in a turn to try to make various scoring combinations and
+        dice must remain in the box. A game consists of thirteen rounds. After each round the player chooses which scoring category is to be used for that round. Once a category has been used in the game,
+        it cannot be used again. The scoring categories have varying point values, some of which are fixed values and others for which the score depends on the value of the dice. A Yahtzee is five-of-a-kind
+        and scores 50 points, the highest of any category. The winner is the player who scores the most points.
+    </p>
+
+    <h2>Rules</h2>
+    <p>
+        The game consists of a number of rounds. In each round, a player gets three rolls of the dice, although they can choose to end their turn after one or two rolls. After the first roll the player
+        can save any dice they want and re-roll the other dice. This procedure is repeated after the second roll. The player has complete choice as to which dice to roll. It is possible to re-roll
+        both dice that were or were not rolled before.
+    </p>
+
+    <p>
+        The Yahtzee scorecard contains 13 different category boxes and in each round, after the third roll, the player must choose one of these categories. The score entered in the box depends on how
+        well the five dice match the scoring rule for the category. Details of the scoring rules for each category are given below. As an example, one of the categories is called Three of a Kind.
+        The scoring rule for this category means that a player only scores if at least three of the five dice are the same value. The game is completed after 13 rounds by each player, with each of
+        the 13 boxes filled. The total score is calculated by summing all thirteen boxes, together with any bonuses.
+    </p>
+
+    <h2>Score card</h2>
+    <p>The Yahtzee scorecard contains 13 scoring boxes divided into upper and lower sections.</p>
+    <h3>Upper section</h3>
+    <p>In the upper section there are six boxes. The score in each of these boxes is determined by adding the total number of dice matching that box.</p>
+    <table>
+        <tr>
+            <th>Categories</th>
+            <th>Descriptions</th>
+            <th>Scores</th>
+            <th>Examples</th>
+        </tr>
+        <tr>
+            <td>Aces</td>
+            <td>Any combination</td>
+            <td>The sum of dice with the number 1</td>
+            <td>
+                <img src="~/imgs/1024px-Dice-1.svg.png" height="40" width="40" />
+                <img src="~/imgs/1024px-Dice-1.svg.png" height="40" width="40" />
+                <img src="~/imgs/1024px-Dice-1.svg.png" height="40" width="40" />
+                <img src="~/imgs/1024px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/1024px-Dice-4.svg.png" height="40" width="40" />
+                scores 3
+            </td>
+        </tr>
+        <tr>
+            <td>Twos</td>
+            <td>Any combination</td>
+            <td>The sum of dice with the number 2</td>
+            <td>
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                <img src="~/imgs/Dice-6a.svg.png" height="40" width="40" />
+                scores 6
+            </td>
+        </tr>
+        <tr>
+            <td>Threes</td>
+            <td>Any combination</td>
+            <td>The sum of dice with the number 3</td>
+            <td>
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/Dice-6a.svg.png" height="40" width="40" />
+                scores 12
+            </td>
+        </tr>
+        <tr>
+            <td>Fours</td>
+            <td>Any combination</td>
+            <td>The sum of dice with the number 4</td>
+            <td>
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                scores 12
+            </td>
+        </tr>
+        <tr>
+            <td>Fives</td>
+            <td>Any combination</td>
+            <td>The sum of dice with the number 5</td>
+            <td>
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                scores 15
+            </td>
+        </tr>
+        <tr>
+            <td>Sixes</td>
+            <td>Any combination</td>
+            <td>The sum of dice with the number 6</td>
+            <td>
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/Dice-6a.svg.png" height="40" width="40" />
+                <img src="~/imgs/Dice-6a.svg.png" height="40" width="40" />
+                <img src="~/imgs/Dice-6a.svg.png" height="40" width="40" />
+                scores 18
+            </td>
+        </tr>
+    </table>
+    <h3>Lower section</h3>
+    <p>The lower section contains a number of poker-themed categories with specific point values.</p>
+    <table>
+        <tr>
+            <th>Categories</th>
+            <th>Descriptions</th>
+            <th>Scores</th>
+            <th>Examples</th>
+        </tr>
+        <tr>
+            <td>Three Of A Kind	</td>
+            <td>At least three dice the same</td>
+            <td>Sum of all dice	</td>
+            <td>
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                scores 17
+            </td>
+        </tr>
+        <tr>
+            <td>Four Of A Kind</td>
+            <td>At least four dice the same</td>
+            <td>Sum of all dice	</td>
+            <td>
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                scores 13
+            </td>
+        </tr>
+        <tr>
+            <td>Full House</td>
+            <td>Three of one number and two of another</td>
+            <td>25</td>
+            <td>
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                scores 25
+            </td>
+        </tr>
+        <tr>
+            <td>Small Straight</td>
+            <td>
+                Four sequential dice
+            </td>
+            <td>30</td>
+            <td>
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                scores 30
+            </td>
+        </tr>
+        <tr>
+            <td>Large Straight</td>
+            <td>
+                Five sequential dice
+            </td>
+            <td>40</td>
+            <td>
+                <img src="~/imgs/1024px-Dice-1.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                scores 40
+            </td>
+        </tr>
+        <tr>
+            <td>Yahtzee</td>
+            <td>All five dice the same</td>
+            <td>50</td>
+            <td>
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                scores 50
+            </td>
+        </tr>
+        <tr>
+            <td>Chance</td>
+            <td>Any combination	</td>
+            <td>Sum of all dice	</td>
+            <td>
+                <img src="~/imgs/800px-Dice-2.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-3.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-4.svg.png" height="40" width="40" />
+                <img src="~/imgs/800px-Dice-5.svg.png" height="40" width="40" />
+                scores 17
+            </td>
+        </tr>
+    </table>
+</div>

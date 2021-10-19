@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Play";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    The game is played by doing the following:
+</p>
+<ul>
+    <li>Click the "Roll" button to roll the dice</li>
+    <li>Select which dice you wish to keep by clicking on them</li>
+    <li>Continue rolling until you've rolled all 3 timers</li>
+    <li>Finish your turn my clicking the "Get result" button</li>
+</ul>
+<button onclick="roll()">Roll</button>
+<button onclick="getResult()">Get Result</button>
+<table>
+    <tr>
+        <td class="roll-td">First roll</td>
+        <td class="roll-td"><div id="first-roll"></div></td>
+    </tr>
+    <tr>
+        <td class="roll-td">Second roll</td>
+        <td class="roll-td"><div id="second-roll"></div></td>
+    </tr>
+    <tr>
+        <td class="roll-td">Third roll</td>
+        <td class="roll-td"><div id="third-roll"></div></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td class="roll-td">On hand</td>
+        <td class="roll-td"><div id="on-hand"></div></td>
+    </tr>
+    <tr>
+        <td class="roll-td">Result</td>
+        <td class="roll-td"><div id="score"></div></td>
+    </tr>
+</table>
+
