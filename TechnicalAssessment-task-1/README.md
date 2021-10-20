@@ -1,20 +1,18 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+The purpose of this project is to determine the candidate's technical proficiency. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# The Assignment
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+This projects consists of a simple Yahtzee application which allows the user to roll their dice up to 3 times (and select which dice they wish to keep between rolls), then determine their score. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+The front-end portion of the application is complete, but the back-end is missing the neccessary logic to roll the dice and calculate the score. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+The candidate must implement the missing logic, and test that the application works as intended.
+
+The rules for yahtzee are presented on the home page. The actually yahtzee game can be found here: /Home/Yahtzee.
+
+# Addtional information
+
+There is no single correct way to solve this task. The most important thing is that you solve it in your own way, and be able to explain the decisions you made a long the way.
+
+If you have any questions, don't hesitate to contact me at thomcal@acos.no
