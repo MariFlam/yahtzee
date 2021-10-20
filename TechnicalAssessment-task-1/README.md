@@ -9,7 +9,7 @@ The front-end portion of the application is complete, but the back-end is missin
 
 The candidate must implement the missing logic, and test that the application works as intended.
 
-The rules for yahtzee are presented on the home page. The actually yahtzee game can be found here: /Home/Yahtzee.
+The rules for yahtzee are presented on the home page. The actual yahtzee game can be found here: /Home/Yahtzee.
 
 # Addtional information
 
