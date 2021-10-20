@@ -11,6 +11,12 @@ The candidate must implement the missing logic, and test that the application wo
 
 The rules for yahtzee are presented on the home page. The actual yahtzee game can be found here: /Home/Yahtzee.
 
+# Getting started
+
+To start the application in visual studio code, navigate to /TechnicalAssessment-task-1 and execute the "dotnet run" command.
+
+To start the application using visual studio 2019, run the "TechnicalAssessment_task_1" project form within the IDE.
+
 # Addtional information
 
 There is no single correct way to solve this task. The most important thing is that you solve it in your own way, and be able to explain the decisions you made a long the way.
